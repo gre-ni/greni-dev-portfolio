@@ -1,7 +1,7 @@
 export const Contacts = () => {
     return (
         <div id="Contacts" className="pt-18">
-            <h2 className="pb-8">Socials</h2>
+            <h2 className="pb-6">Socials</h2>
             <div className="flex items-start justify-start gap-4">
                 <a href="https://github.com/gre-ni">
                     <img src="/icons/github_icon.svg" className="max-h-8" />
