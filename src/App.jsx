@@ -22,7 +22,7 @@ function App() {
 
     return (
         <div className="bg-dot-pattern min-h-screen" onClick={cycleColor}>
-            <div className="max-w-6xl m-auto px-14 md:px-6">
+            <div className="max-w-6xl m-auto px-10 sm:px-20 md:px-12 lg:px-6">
                 <Navbar />
                 <Hero />
                 <Projects />

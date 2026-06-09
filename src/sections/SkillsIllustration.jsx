@@ -4,13 +4,13 @@ export const SkillsIllustration = () => {
     return (
         <div className="relative w-full h-fit">
             {/* Labels */}
-            <h3 className="absolute left-[50%] top-[27%] -translate-x-1/2">
+            <h3 className="absolute text-[0.8rem] sm:text-[1.2rem] left-[49%] top-[27%] sm:left-[50%] sm:top-[27%] -translate-x-1/2">
                 Frontend
             </h3>
-            <h3 className="absolute left-[27%] top-[71%] -translate-y-1/2 -translate-x-1/2">
+            <h3 className="absolute text-[0.8rem] sm:text-[1.2rem] left-[27%] top-[71%] sm:left-[27%] sm:top-[71%] -translate-y-1/2 -translate-x-1/2">
                 Backend
             </h3>
-            <h3 className="absolute left-[69%] top-[71%] -translate-y-1/2">
+            <h3 className="absolute text-[0.8rem] sm:text-[1.2rem] left-[69%] top-[71%] sm:left-[69%] sm:top-[71%] -translate-y-1/2">
                 Data
             </h3>
 
@@ -57,13 +57,13 @@ export const SkillsIllustration = () => {
             </div>
 
             <div className="absolute left-[22%] top-[0%] -translate-x-1/2">
-                <SkillTag name="Figma" type="inactive" />
+                <SkillTag name="Figma" type="illustration-grey" />
             </div>
             <div className="absolute left-[10%] top-[10%] -translate-x-1/2">
-                <SkillTag name="Playwright" type="inactive" />
+                <SkillTag name="Playwright" type="illustration-grey" />
             </div>
             <div className="absolute left-[90%] top-[24%] -translate-x-1/2">
-                <SkillTag name="Postman" type="inactive" />
+                <SkillTag name="Postman" type="illustration-grey" />
             </div>
 
             {/* Background */}
