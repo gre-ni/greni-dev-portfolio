@@ -52,7 +52,7 @@ export const Hero = () => {
     }, []);
 
     return (
-        <div className="pt-8 md:pt-12 grid grid-cols-6 gap-8">
+        <div className="pt-6 md:pt-12 grid grid-cols-6 gap-8">
             <h1 className="col-span-6 text-5xl/snug md:text-[4rem]/tight">
                 Hi, I'm{" "}
                 <span ref={word1Ref} className={highlightClass}>
